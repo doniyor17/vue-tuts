@@ -1,6 +1,8 @@
 <template>
 	<div class="hello">
 		<h2>Child1</h2>
+		<slot name="title"></slot>
+		<slot name="text"></slot>
 	</div>
 </template>
 
@@ -11,4 +13,7 @@ export default {
 </script>
 
 <style scoped>
+	h3 {
+		color: blue;
+	}
 </style>
