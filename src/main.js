@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
-export const eventEmitter = new Vue()
+import color from './color'
+
+Vue.directive('colored', color)
 
 Vue.config.productionTip = false
 
